@@ -13,5 +13,5 @@ DEVICE_PATH := device/motorola/rhannah
 TARGET_OTA_ASSERT_DEVICE := rhannah
 
 # Kernel
-TARGET_KERNEL_CONFIG := hannah_defconfig
+TARGET_KERNEL_CONFIG := hannah_int_defconfig
 TARGET_KERNEL_RECOVERY_CONFIG := hannah_recovery_defconfig
