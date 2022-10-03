@@ -12,6 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 
 # Targets
 TARGET_BOOT_ANIMATION_RES := 720
+TARGET_SUPPORTS_QUICK_TAP := true
 ARROW_GAPPS := true
 
 # Inherit some common Arrow stuff.
