@@ -13,13 +13,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 # Targets
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_SUPPORTS_QUICK_TAP := true
-ARROW_GAPPS := true
 
-# Inherit some common Arrow stuff.
-$(call inherit-product, vendor/arrow/config/common.mk)
+# Inherit some common lineage stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := arrow_rhannah
+PRODUCT_NAME := lineage_rhannah
 PRODUCT_DEVICE := rhannah
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto e5 plus

@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_rhannah.mk
+    $(LOCAL_DIR)/lineage_rhannah.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_rhannah-user \
-    arrow_rhannah-userdebug \
-    arrow_rhannah-eng
+    lineage_rhannah-user \
+    lineage_rhannah-userdebug \
+    lineage_rhannah-eng
